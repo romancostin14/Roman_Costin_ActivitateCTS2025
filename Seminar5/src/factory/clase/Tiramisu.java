@@ -11,6 +11,8 @@ public class Tiramisu extends FelDeMancare {
     public String toString() {
         return "Tiramisu{" +
                 "crema='" + crema + '\'' +
+                ", pret=" + pret +
+                ", calorii=" + calorii +
                 '}';
     }
 }

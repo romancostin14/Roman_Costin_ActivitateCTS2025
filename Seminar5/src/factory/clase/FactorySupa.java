@@ -25,5 +25,10 @@ public class FactorySupa implements AbstractFactory {
         }
     }
 
-
+    @Override
+    public String toString() {
+        return "FactorySupa{" +
+                "cantitate=" + cantitate +
+                '}';
+    }
 }

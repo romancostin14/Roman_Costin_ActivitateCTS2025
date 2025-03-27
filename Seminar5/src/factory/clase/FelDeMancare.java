@@ -1,8 +1,8 @@
 package factory.clase;
 
 public class FelDeMancare {
-    private float pret;
-    private float calorii;
+    public float pret;
+    public float calorii;
 
     public FelDeMancare(float pret, float calorii) {
         this.pret = pret;

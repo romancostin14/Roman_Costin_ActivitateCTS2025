@@ -11,6 +11,8 @@ public class SupaDeLegume extends FelDeMancare{
     public String toString() {
         return "SupaDeLegume{" +
                 "cantitate=" + cantitate +
+                ", pret=" + pret +  // Acces direct la atributul moștenit
+                ", calorii=" + calorii +
                 '}';
     }
 }
