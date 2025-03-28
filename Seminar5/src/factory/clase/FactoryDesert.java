@@ -17,10 +17,8 @@ public class FactoryDesert implements AbstractFactory {
             case Deserturi.tiramisu -> {
                 return new Tiramisu(pret,calorii,crema);
             }
+            default -> throw new IllegalArgumentException("Tip necunoscut de desert!");
 
-            case null, default -> {
-                return null;
-            }
         }
     }
 
