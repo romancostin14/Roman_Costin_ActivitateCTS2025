@@ -10,18 +10,17 @@ public class FactorySupa implements AbstractFactory {
 
     @Override
     public FelDeMancare creareFelDeMancare(Enum tipFelDeMancare, float pret, float calorii) {
-        switch (tipFelDeMancare) {
-            case Supe.legume -> {
+        if (tipFelDeMancare == null) {
+            return null;
+        }
+
+        switch ((Supe) tipFelDeMancare) {  // Conversie explicită la tipul enum
+            case legume:
                 return new SupaDeLegume(pret, calorii, cantitate);
-            }
-
-            case Supe.ciuperci -> {
+            case ciuperci:
                 return new SupaDeCiuperci(pret, calorii, cantitate);
-            }
-
-            case null, default -> {
+            default:
                 return null;
-            }
         }
     }
 

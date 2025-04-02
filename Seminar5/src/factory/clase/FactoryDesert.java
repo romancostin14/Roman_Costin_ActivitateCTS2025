@@ -9,12 +9,12 @@ public class FactoryDesert implements AbstractFactory {
 
     @Override
     public FelDeMancare creareFelDeMancare(Enum tipFelDeMancare, float pret, float calorii) {
-        switch (tipFelDeMancare) {
-            case Deserturi.papanasi -> {
+        switch ((Deserturi)tipFelDeMancare) {
+            case papanasi -> {
                 return new Papanasi(pret,calorii,crema);
             }
 
-            case Deserturi.tiramisu -> {
+            case tiramisu -> {
                 return new Tiramisu(pret,calorii,crema);
             }
             default -> throw new IllegalArgumentException("Tip necunoscut de desert!");
