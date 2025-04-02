@@ -8,7 +8,7 @@ public enum AgentieEnum {
     private int numarAngajati;
 
 
-    private AgentieEnum() {
+    AgentieEnum() {
         this.numeAgentie = "AgeTur";
         this.capital = 1000;
         this.numarAngajati = 5;

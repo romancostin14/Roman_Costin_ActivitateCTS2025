@@ -1,7 +1,7 @@
 package factory.clase;
 
 public class Papanasi extends FelDeMancare{
-    private String crema;
+    private final String crema;
 
     public Papanasi(float pret, float calatorii, String crema) {
         super(pret, calatorii);

@@ -1,7 +1,7 @@
 package factory.clase;
 
 public class FactorySupa implements AbstractFactory {
-    private int cantitate;
+    private final int cantitate;
 
 
     public FactorySupa(int cantitate) {

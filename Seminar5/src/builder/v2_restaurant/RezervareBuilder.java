@@ -1,7 +1,7 @@
 package builder.v2_restaurant;
 
 public class RezervareBuilder implements Builder{
-    private Rezervare rezervare;
+    private final Rezervare rezervare;
 
     public RezervareBuilder(String nmeClient) {
         rezervare = new Rezervare(false,false,  false,"fara muzica", nmeClient);

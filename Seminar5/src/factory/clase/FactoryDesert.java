@@ -1,7 +1,7 @@
 package factory.clase;
 
 public class FactoryDesert implements AbstractFactory {
-    private String crema;
+    private final String crema;
 
     public FactoryDesert(String crema) {
         this.crema = crema;

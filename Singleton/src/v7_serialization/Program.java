@@ -4,7 +4,7 @@ import java.io.*;
 
 public class Program {
 
-    public static void main(String[] args) throws FileNotFoundException,IOException, ClassNotFoundException {
+    public static void main(String[] args) throws IOException, ClassNotFoundException {
         AgentieSerialization agentie = AgentieSerialization.getInstanta("Nume1",1000,10);
         ObjectOutput out = new ObjectOutputStream(new FileOutputStream("fisier.dat"));
         out.writeObject(agentie);

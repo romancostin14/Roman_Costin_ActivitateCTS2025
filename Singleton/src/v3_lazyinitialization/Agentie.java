@@ -1,9 +1,9 @@
 package v3_lazyinitialization;
 
 public class Agentie {
-    private String numeAgentie;
-    private float capital;
-    private int numarAngajati;
+    private final String numeAgentie;
+    private final float capital;
+    private final int numarAngajati;
 
     private static Agentie instanta = null;
 

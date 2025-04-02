@@ -10,7 +10,7 @@ public class Program {
         cont.setInternetBanking(true);
         cont.setCardAtasat(true);
 
-        System.out.println(cont.toString());
+        System.out.println(cont);
 
         // utilizare builder
         ContBancar cont2 = new ContBancarBuilderV2().setDetinator("Ionescu Vasile").setSuma(2000).setCardAtasat(true)

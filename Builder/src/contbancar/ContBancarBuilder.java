@@ -2,7 +2,7 @@ package contbancar;
 
 public class ContBancarBuilder implements IBuilder {
 
-    private ContBancar contBancar;
+    private final ContBancar contBancar;
 
     public ContBancarBuilder() {
         contBancar=new ContBancar();

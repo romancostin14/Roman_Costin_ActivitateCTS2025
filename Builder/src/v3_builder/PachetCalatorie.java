@@ -1,11 +1,11 @@
 package v3_builder;
 
 public class PachetCalatorie {
-    private boolean hasWiFi;
-    private boolean hasAnimale;
-    private boolean isFumator;
-    private boolean hasAC;
-    private boolean hasTV;
+    private final boolean hasWiFi;
+    private final boolean hasAnimale;
+    private final boolean isFumator;
+    private final boolean hasAC;
+    private final boolean hasTV;
 
     private PachetCalatorie(PachetCalatorieBuilder builder) {
         this.hasWiFi = builder.hasWiFi;

@@ -1,7 +1,7 @@
 package v1_builder;
 
 public class PachetTransportBuilder implements Builder {
-   private PachetTransport pachetTransport;
+   private final PachetTransport pachetTransport;
 
     public PachetTransportBuilder() {
         pachetTransport=new PachetTransport(false, false, false, false, false);
