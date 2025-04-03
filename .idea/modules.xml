@@ -4,15 +4,20 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Adapter/Adapter.iml" filepath="$PROJECT_DIR$/Adapter/Adapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/Builder/Builder.iml" filepath="$PROJECT_DIR$/Builder/Builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Facade/Facade.iml" filepath="$PROJECT_DIR$/Facade/Facade.iml" />
       <module fileurl="file://$PROJECT_DIR$/Factory/Factory.iml" filepath="$PROJECT_DIR$/Factory/Factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/Prototype/Prototype.iml" filepath="$PROJECT_DIR$/Prototype/Prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Roman_Costin_ActivitateCTS2025.iml" filepath="$PROJECT_DIR$/.idea/Roman_Costin_ActivitateCTS2025.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar5/Seminar5.iml" filepath="$PROJECT_DIR$/Seminar5/Seminar5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar6/Seminar6.iml" filepath="$PROJECT_DIR$/Seminar6/Seminar6.iml" />
       <module fileurl="file://$PROJECT_DIR$/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Singleton/Singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar6/adapter_clase/adapter_clase.iml" filepath="$PROJECT_DIR$/Seminar6/adapter_clase/adapter_clase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar6/adapter_obiecte/adapter_obiecte.iml" filepath="$PROJECT_DIR$/Seminar6/adapter_obiecte/adapter_obiecte.iml" />
       <module fileurl="file://$PROJECT_DIR$/Factory/v1/v1.iml" filepath="$PROJECT_DIR$/Factory/v1/v1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Factory/v2_factory_method/v2_factory_method.iml" filepath="$PROJECT_DIR$/Factory/v2_factory_method/v2_factory_method.iml" />
       <module fileurl="file://$PROJECT_DIR$/Factory/v3_factory_method/v3_factory_method[to_learn].iml" filepath="$PROJECT_DIR$/Factory/v3_factory_method/v3_factory_method[to_learn].iml" />
       <module fileurl="file://$PROJECT_DIR$/Factory/v4_abstract_factory/v4_abstract_factory.iml" filepath="$PROJECT_DIR$/Factory/v4_abstract_factory/v4_abstract_factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Factory/v5_factory_2_metode/v5_factory_2_metode.iml" filepath="$PROJECT_DIR$/Factory/v5_factory_2_metode/v5_factory_2_metode.iml" />
     </modules>
   </component>
 </project>
