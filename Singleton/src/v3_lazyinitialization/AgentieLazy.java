@@ -1,13 +1,13 @@
 package v3_lazyinitialization;
 
-public class Agentie {
+ public class AgentieLazy {
     private final String numeAgentie;
     private final float capital;
     private final int numarAngajati;
 
-    private static Agentie instanta = null;
+    private static AgentieLazy instanta = null;
 
-    public Agentie(String numeAgentie, float capital, int numarAngajati) {
+    private AgentieLazy(String numeAgentie, float capital, int numarAngajati) {
         this.numeAgentie = numeAgentie;
         this.capital = capital;
         this.numarAngajati = numarAngajati;
@@ -25,9 +25,9 @@ public class Agentie {
         return numarAngajati;
     }
 
-    public static Agentie getInstanta(String numeAgentie, float capital, int numarAngajati) {
+    public static AgentieLazy getInstanta(String numeAgentie, float capital, int numarAngajati) {
         if(instanta == null) {
-            instanta = new Agentie(numeAgentie, capital, numarAngajati);
+            instanta = new AgentieLazy(numeAgentie, capital, numarAngajati);
         }
         return instanta;
     }

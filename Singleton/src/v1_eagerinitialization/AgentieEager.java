@@ -37,7 +37,7 @@ public class AgentieEager {
         this.numarAngajati = numarAngajati;
     }
 
-    public static AgentieEager getInstance(String nume, float capital, int numarAngajati) {
+    public static AgentieEager getInstance() {
         return instanta;
     }
 

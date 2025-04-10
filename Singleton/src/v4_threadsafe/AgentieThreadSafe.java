@@ -8,7 +8,7 @@ public class AgentieThreadSafe {
 
     private static AgentieThreadSafe instanta = null;
 
-    public AgentieThreadSafe(String numeAgentie, float capital, int numarAngajati) {
+    private AgentieThreadSafe(String numeAgentie, float capital, int numarAngajati) {
         this.numeAgentie = numeAgentie;
         this.capital = capital;
         this.numarAngajati = numarAngajati;
@@ -44,5 +44,14 @@ public class AgentieThreadSafe {
 
     public void setNumarAngajati(int numarAngajati) {
         this.numarAngajati = numarAngajati;
+    }
+
+    @Override
+    public String toString() {
+        return "AgentieThreadSafe{" +
+                "numeAgentie='" + numeAgentie + '\'' +
+                ", capital=" + capital +
+                ", numarAngajati=" + numarAngajati +
+                '}';
     }
 }

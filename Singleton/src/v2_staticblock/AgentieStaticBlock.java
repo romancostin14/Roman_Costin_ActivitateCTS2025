@@ -7,49 +7,55 @@ public class AgentieStaticBlock {
 
     private static AgentieStaticBlock instance;
 
-
-    static{
-        try{
+    static {
+        try {
             instance = new AgentieStaticBlock();
-        }
-        catch(Exception e){
+        } catch (Exception e) {
             System.out.println("Agentia nu poate fi creata.");
         }
     }
 
-    private AgentieStaticBlock(){
-        this.numeAgentie="AgeTur";
-        this.capital=1000;
-        this.numarAngajati=5;
+    private AgentieStaticBlock() {
+        this.numeAgentie = "AgeTur";
+        this.capital = 1000;
+        this.numarAngajati = 5;
     }
 
+    public static AgentieStaticBlock getInstance() {
+        return instance;
+    }
+
+    // Getters & Setters
     public String getNumeAgentie() {
         return numeAgentie;
-    }
-
-    public float getCapital() {
-        return capital;
-    }
-
-    public int getNumarAngajati() {
-        return numarAngajati;
     }
 
     public void setNumeAgentie(String numeAgentie) {
         this.numeAgentie = numeAgentie;
     }
 
+    public float getCapital() {
+        return capital;
+    }
+
     public void setCapital(float capital) {
         this.capital = capital;
+    }
+
+    public int getNumarAngajati() {
+        return numarAngajati;
     }
 
     public void setNumarAngajati(int numarAngajati) {
         this.numarAngajati = numarAngajati;
     }
 
-    public static AgentieStaticBlock getInstance(String nume, float capital, int numarAngajati) {
-        return instance;
+    @Override
+    public String toString() {
+        return "AgentieStaticBlock{" +
+                "numeAgentie='" + numeAgentie + '\'' +
+                ", capital=" + capital +
+                ", numarAngajati=" + numarAngajati +
+                '}';
     }
-
-
 }
