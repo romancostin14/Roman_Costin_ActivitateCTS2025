@@ -1,6 +1,6 @@
 package oferte.deep;
 
 public interface IListaOferte {
-    IListaOferte copiaza();
+    IListaOferte copiaza() throws CloneNotSupportedException;
     void incarcaListaOferte();
 }

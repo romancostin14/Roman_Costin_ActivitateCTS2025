@@ -7,7 +7,7 @@ public class AutoritateReglementareMasiniEager
     private int nrReglementari;
     private static final AutoritateReglementareMasiniEager instance= new AutoritateReglementareMasiniEager("Autoritate Auto","www.autoritateAuto.ro",4);
 
-    public AutoritateReglementareMasiniEager(String nume, String webSite, int nrReglementari) {
+    private AutoritateReglementareMasiniEager(String nume, String webSite, int nrReglementari) {
         this.nume = nume;
         this.webSite = webSite;
         this.nrReglementari = nrReglementari;

@@ -8,7 +8,7 @@ public class AutoritateReglementareMasiniLazy {
     private final int nrReglementari;
     private static AutoritateReglementareMasiniLazy instance = null;
 
-    public AutoritateReglementareMasiniLazy(String nume, String webSite, int nrReglementari) {
+    private AutoritateReglementareMasiniLazy(String nume, String webSite, int nrReglementari) {
         this.nume = nume;
         this.webSite = webSite;
         this.nrReglementari = nrReglementari;

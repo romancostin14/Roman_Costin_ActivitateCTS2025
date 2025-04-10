@@ -14,7 +14,11 @@ public class Main {
         listaOferte.incarcaListaOferte();
 
         IListaOferte copieListaOferte =null;
-        copieListaOferte = listaOferte.copiaza();
+        try {
+            copieListaOferte = listaOferte.copiaza();
+        } catch (CloneNotSupportedException e) {
+            throw new RuntimeException(e);
+        }
         System.out.println(copieListaOferte);
     }
 }
