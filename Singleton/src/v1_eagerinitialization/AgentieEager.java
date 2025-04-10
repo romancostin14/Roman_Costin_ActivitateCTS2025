@@ -41,4 +41,12 @@ public class AgentieEager {
         return instanta;
     }
 
+    @Override
+    public String toString() {
+        return "AgentieEager{" +
+                "numeAgentie='" + numeAgentie + '\'' +
+                ", capital=" + capital +
+                ", numarAngajati=" + numarAngajati +
+                '}';
+    }
 }

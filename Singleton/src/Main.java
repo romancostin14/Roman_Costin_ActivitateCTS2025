@@ -1,15 +1,13 @@
+import v1_eagerinitialization.AgentieEager;
+import v3_lazyinitialization.Agentie;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.print("Hello and welcome!");
-
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+        AgentieEager eager = AgentieEager.getInstance("nume",223.5f,10);
+        System.out.println(eager);
+        Agentie agentie = Agentie.getInstanta("Christian tour",110.3f,20);
+        System.out.println(agentie);
         }
     }
-}
