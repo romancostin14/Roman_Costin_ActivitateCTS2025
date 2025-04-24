@@ -1,0 +1,3 @@
+public interface IRezervare {
+    void realizeazaRezervare(String numeClient, int nrPersoane);
+}
