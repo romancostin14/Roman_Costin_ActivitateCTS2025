@@ -1,4 +1,6 @@
-public class Rezervare implements IRezervare{
+package proxy_v1.clase;
+
+public class Rezervare implements IRezervare {
 
     public Rezervare() {
 

@@ -1,3 +1,5 @@
+package proxy_v1.clase;
+
 public class ProxyRezervare implements IRezervare {
     private IRezervare rezervare;
 

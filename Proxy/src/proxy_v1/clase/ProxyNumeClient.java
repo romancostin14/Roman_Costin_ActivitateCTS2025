@@ -1,4 +1,6 @@
-public class ProxyNumeClient implements  IRezervare{
+package proxy_v1.clase;
+
+public class ProxyNumeClient implements IRezervare {
     private IRezervare rezervare;
 
     public ProxyNumeClient(IRezervare rezervare) {

@@ -1,3 +1,10 @@
+package proxy_v1.program;
+
+import proxy_v1.clase.IRezervare;
+import proxy_v1.clase.ProxyNumeClient;
+import proxy_v1.clase.ProxyRezervare;
+import proxy_v1.clase.Rezervare;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
