@@ -29,7 +29,7 @@ public class Departament implements Structura {
 
     @Override
     public void afiseazaDescriere() {
-        System.out.println("Sectia" + nume + " " + nrAngajati+ " si urmatoarele subsectii:");
+        System.out.println("Sectia " + nume + " are " + nrAngajati+ " de angajati si urmatoarele subsectii:");
         for(Structura structura : lista) {
             structura.afiseazaDescriere();
         }

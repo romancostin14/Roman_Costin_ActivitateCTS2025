@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/Facade/Facade.iml" filepath="$PROJECT_DIR$/Facade/Facade.iml" />
       <module fileurl="file://$PROJECT_DIR$/Factory/Factory.iml" filepath="$PROJECT_DIR$/Factory/Factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/Flyweight/Flyweight.iml" filepath="$PROJECT_DIR$/Flyweight/Flyweight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice Structural Design Patterns/Practice Structural Design Patterns.iml" filepath="$PROJECT_DIR$/Practice Structural Design Patterns/Practice Structural Design Patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/Practice Test Creationale/Practice Test Creationale.iml" filepath="$PROJECT_DIR$/Practice Test Creationale/Practice Test Creationale.iml" />
       <module fileurl="file://$PROJECT_DIR$/Prototype/Prototype.iml" filepath="$PROJECT_DIR$/Prototype/Prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/Proxy/Proxy.iml" filepath="$PROJECT_DIR$/Proxy/Proxy.iml" />

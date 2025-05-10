@@ -20,7 +20,7 @@ public class Sectie implements Structura {
 
     @Override
     public void afiseazaDescriere() {
-        System.out.println("Sectia" + nume );
+        System.out.println("Sectia " + nume );
 
     }
 
