@@ -21,7 +21,7 @@ public class Pacient implements IPacient {
     }
 
     @Override
-    public void descrierePaient(Spitalizare spitalizare) {
+    public void descrierePacient(Spitalizare spitalizare) {
         System.out.println("Pacientul cu numele" + numePacient + " cu numarul de telefon " + numarTelefon  + " cu adresa de Email " + adresaEmail);
         System.out.println(spitalizare.toString());
     }
